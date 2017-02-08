@@ -1,0 +1,106 @@
+body{
+    font-family: 'Slabo 27px',cursive;;
+    color: #444
+}
+
+hr{
+    margin: 0px;
+}
+
+#surtitle{
+    text-align: center;
+    color: #8b2903;
+}
+
+header, footer{
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.title{
+    padding-left: 35%;
+    padding-right: 35%;
+    text-align: center;
+    display: block;
+    font-size: 32px;
+    letter-spacing: 3px;
+    margin: 0px;
+}
+
+.sub{
+    text-align: center;
+    font-style: italic;
+}
+
+.italic{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.exemple{
+    display: block;
+    width: 55%;
+    padding-left: 27em;
+}
+
+.txt1{
+    text-align: right;
+    padding-top: 10em;
+    padding-left: 8em;
+    float: left;
+    font-weight: 600;
+}
+
+.txt2{
+    font-size: 15px;
+    line-height: 14px;
+    letter-spacing: 4px;
+}
+
+.img{
+    float: left;
+}
+
+.salle, .service, .dressage, .gout{
+    display:block;
+    width: 55%;
+    padding-left: 26.5em;
+    /*padding-right: 25em;*/
+}
+
+.img1, .img2, .txt{
+    float: left;
+    width: 50%;
+}
+
+.txt{
+    padding-top: 10em;
+}
+
+.img2{
+    text-align: right;
+}
+
+.subtitle{
+    font-weight: 550;
+    font-size: 30px;
+}
+
+.rating{
+    display: inline;;
+    color: #DDD;
+    background-color: #222;
+    font-size: 14px;
+}
+
+
+
+footer{
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
