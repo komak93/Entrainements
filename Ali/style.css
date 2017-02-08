@@ -4,7 +4,14 @@ body{
 }
 
 hr{
+    padding-left: 40%;
+    padding-right: 40%;
     margin: 0px;
+}
+
+.title2{
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
 }
 
 #surtitle{
@@ -19,13 +26,13 @@ header, footer{
 }
 
 .title{
-    padding-left: 35%;
-    padding-right: 35%;
+    padding-left: 40%;
+    padding-right: 40%;
     text-align: center;
     display: block;
     font-size: 32px;
     letter-spacing: 3px;
-    margin: 0px;
+
 }
 
 .sub{
@@ -86,6 +93,7 @@ header, footer{
 .subtitle{
     font-weight: 550;
     font-size: 30px;
+    margin-bottom: 0em;
 }
 
 .rating{
