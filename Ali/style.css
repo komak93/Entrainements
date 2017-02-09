@@ -1,7 +1,15 @@
 body{
-    font-family: 'Slabo 27px',cursive;;
+    font-family: 'Slabo 27px',cursive;
     color: #444
 }
+
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 
 hr{
     padding-left: 40%;
@@ -107,6 +115,10 @@ header, footer{
 
 footer{
     text-align: center;
+}
+
+span{
+    /*font-family: 'Font Awesome',cursive;*/
 }
 
 .clear{
