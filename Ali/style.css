@@ -112,9 +112,24 @@ header, footer{
 }
 
 
-
 footer{
     text-align: center;
+}
+
+.last{
+    display: block;
+    padding-left: 125em;
+    width: 20em;
+    height: 15em;
+    background-image:url(plan.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#cityguide, #parisfrance{
+    text-align: center;
+    padding-top: 6em;
+    padding-right: 100em;
 }
 
 span{
