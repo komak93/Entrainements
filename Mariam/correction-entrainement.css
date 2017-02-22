@@ -1,0 +1,62 @@
+body{
+    font-family: 'Comorant Garamond', serif;
+    width: 56%;
+    margin: 0 auto;
+}
+header, footer{
+    text-align: center;
+    width: 50%;
+    margin: 10% auto 2%;
+}
+header hr, section hr, footer hr{
+    padding-left: 70%;
+    padding-right: 50%;
+    margin: -20px;
+    margin-left: -2px;
+}
+/*Navigation*/
+nav{
+    text-align: center;
+}
+nav ul{
+    margin-top: 0;
+}
+nav ul li{
+    display: inline-block;
+}
+a{
+    /*ici on sélèctionne les liens avec la balise<a>*/
+    text-decoration: none;
+    /*suppression de la mise en forme standard des liens(couleur bleue et souligné)*/
+    color: inherit;
+}
+/*Titres*/
+h1,h2{
+        /*sélectionne des balises de titre de niveau <h1> et <h2> */
+        text-transform: uppercase; /*mise en forme du texte en lettres capitales */
+}
+span{
+    mark: #000;
+    text-emphasis-color: #000;
+}
+/*sélèction de l'id*/
+#exemple{
+    margin: 5em auto;
+}
+/*Sélection des class appliquées aux <div> contenant le texte et les images dans la feuille html*/
+.case-left{
+    width: 48%;
+    float: left;
+}
+.text1{
+    /*1er bloc texte-phto auquelon ajoute un padding en haut pour généer un espace avec le début de la poage*/
+    padding-top: 6em;
+}
+.case-right{
+    width: 48%;
+    float: right;
+    padding-left: 1em;
+}
+.clear{
+    clear: both;
+}
