@@ -1,0 +1,59 @@
+body{
+    front-family: '(Comoran Garamond)', serif;
+    width: 52%;
+    margin: 0 auto;
+}
+header, footer{
+    text-align: center;
+    width: 50%;
+    margin: 10% auto 2%;
+}
+header hr, section hr, footer hr{
+    padding-left: 40%;
+    padding-right: 40%;
+    margin: -20px;
+}
+/*navigation*/
+nav{
+    text-align: center;
+}
+nav ul{
+    margin-top: 0;
+}
+nav ul li{
+    display: inline-block;
+}
+a{
+    /*ici on sélectionne les liens avec la balise <a*/
+    text-decoration: none; /* suppression de la mise en forme standard des liens (couleurbleue et souligné)*/
+    color: inherit;
+}
+/*titres*/
+h1, h2{
+    */ sélection des balises de titre niveau <h1> et <h2> */
+    text-transform: uppercase; /* mise en forme du texte en lettre capitales */
+    }
+    /*sélection de l'id*/
+    #exemple{
+        margin: 5em auto;
+    }
+
+    /*sélection des class appliquées aux <div> contenant le texte et les images dans la feuille html*/
+.case-left{
+    width: 45%;
+    float: left;
+}
+.txt1{/* 1er bloc texte-photo auquel on ajoute yn padding en haut pour générer un espace avec le début de la page */
+    padding-top: 6em;
+}
+.case-right{
+    width: 45%;
+    float: right;
+    padding-left: 1em;
+}
+.clear{
+    clear: both;
+}
+span{
+    background-color: lightblue;
+}
