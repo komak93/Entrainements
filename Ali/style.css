@@ -1,0 +1,141 @@
+body{
+    font-family: 'Slabo 27px',cursive;
+    color: #444
+}
+
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+hr{
+    padding-left: 40%;
+    padding-right: 40%;
+    margin: 0px;
+}
+
+.title2{
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+#surtitle{
+    text-align: center;
+    color: #8b2903;
+}
+
+header, footer{
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.title{
+    padding-left: 40%;
+    padding-right: 40%;
+    text-align: center;
+    display: block;
+    font-size: 32px;
+    letter-spacing: 3px;
+
+}
+
+.sub{
+    text-align: center;
+    font-style: italic;
+}
+
+.italic{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.exemple{
+    display: block;
+    width: 55%;
+    padding-left: 27em;
+}
+
+.txt1{
+    text-align: right;
+    padding-top: 10em;
+    padding-left: 8em;
+    float: left;
+    font-weight: 600;
+}
+
+.txt2{
+    font-size: 15px;
+    line-height: 14px;
+    letter-spacing: 4px;
+}
+
+.img{
+    float: left;
+}
+
+.salle, .service, .dressage, .gout{
+    display:block;
+    width: 55%;
+    padding-left: 26.5em;
+    /*padding-right: 25em;*/
+}
+
+.img1, .img2, .txt{
+    float: left;
+    width: 50%;
+}
+
+.txt{
+    padding-top: 10em;
+}
+
+.img2{
+    text-align: right;
+}
+
+.subtitle{
+    font-weight: 550;
+    font-size: 30px;
+    margin-bottom: 0em;
+}
+
+.rating{
+    display: inline;;
+    color: #DDD;
+    background-color: #222;
+    font-size: 14px;
+}
+
+
+footer{
+    text-align: center;
+}
+
+.last{
+    display: block;
+    padding-left: 125em;
+    width: 20em;
+    height: 15em;
+    background-image:url(plan.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#cityguide, #parisfrance{
+    text-align: center;
+    padding-top: 6em;
+    padding-right: 100em;
+}
+
+span{
+    /*font-family: 'Font Awesome',cursive;*/
+}
+
+.clear{
+    clear: both;
+}
