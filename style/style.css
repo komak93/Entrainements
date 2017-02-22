@@ -51,9 +51,9 @@ h1, h2{
     float: right;
     padding-left: 1em;
 }
-.span{
-    text-decoration-color: #lightblue;
-}
 .clear{
     clear: both;
+}
+span{
+    background-color: lightblue;
 }
